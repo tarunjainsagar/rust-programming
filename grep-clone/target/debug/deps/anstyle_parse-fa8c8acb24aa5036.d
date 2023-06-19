@@ -1,0 +1,11 @@
+/home/tarun/blockchain/grep-clone/target/debug/deps/anstyle_parse-fa8c8acb24aa5036.rmeta: /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/lib.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/params.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/mod.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/definitions.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/table.rs
+
+/home/tarun/blockchain/grep-clone/target/debug/deps/libanstyle_parse-fa8c8acb24aa5036.rlib: /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/lib.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/params.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/mod.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/definitions.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/table.rs
+
+/home/tarun/blockchain/grep-clone/target/debug/deps/anstyle_parse-fa8c8acb24aa5036.d: /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/lib.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/params.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/mod.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/definitions.rs /home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/table.rs
+
+/home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/lib.rs:
+/home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/params.rs:
+/home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/mod.rs:
+/home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/definitions.rs:
+/home/tarun/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.0/src/state/table.rs:
