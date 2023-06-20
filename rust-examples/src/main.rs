@@ -7,9 +7,21 @@ fn main() {
     let _y: i32; // uninitialized variable
 
     assert_eq!(x, 5);
-    println!("Program 2 - Success!")
+    println!("Program 2 Variable - Success!");
 
     // Program 3 - Mutuable variable
+    let mut a: i32 = 1;
+    a += 2;
 
-    // todo: Scope, Function, Shadowing
+    assert_eq!(a, 3);
+    println!("Program 3 Mutable Variable - Success!");
+
+    // Program 4 - Scope
+    {
+        let y: i32 = 10;
+        println!("Value of a is {} and y is {}", a, y);
+    }
+    println!("Program 4 Scope - Success!");
+
+    // todo: Function, Shadowing
 }
