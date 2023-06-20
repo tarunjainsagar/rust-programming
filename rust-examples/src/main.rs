@@ -23,5 +23,13 @@ fn main() {
     }
     println!("Program 4 Scope - Success!");
 
+    // Program 5
+    define_var();
+
     // todo: Function, Shadowing
+}
+
+fn define_var() {
+    let b: &str = "Hello Function!";
+    println!("Program 5 Function - {}", b);
 }
