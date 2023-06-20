@@ -28,11 +28,28 @@ fn main() {
 
     // Program 6 - Shadowing
     shadowing();
+
+    // Program 7 - Destructuring
+    destructuring();
+
+    // Program 8 - Tuple, Slice, Struct Patterns
+    tuple_slice();
 }
 
-fn define_var() {
-    let b: &str = "Hello Function!";
-    println!("Program 5 Function - {}", b);
+fn tuple_slice() {
+    let (x, y); //tuple
+    (x, ..) = (3, 4); // Slice
+    [.., y] = [1, 2]; // Slice
+    println!("Program 8 Tuple Slice - x is {} and y is {}", x, y);
+}
+
+fn destructuring() {
+    let (mut x, y) = (10, 20);
+    x += 3;
+
+    assert_eq!(x, 13);
+    assert_eq!(y, 20);
+    println!("Program 7 Destructuring - x is {} and y is {}", x, y);
 }
 
 #[allow(unused_variables)]
@@ -53,4 +70,9 @@ fn shadowing() {
     let y: i32 = 50;
     let y: &str = "I am shadowed";
     println!("Program 6 Shadowning - x is {} and y is {}", x, y);
+}
+
+fn define_var() {
+    let b: &str = "Hello Function!";
+    println!("Program 5 Function - {}", b);
 }
