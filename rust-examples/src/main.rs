@@ -1,3 +1,4 @@
+mod datatypes;
 mod variables;
 
 #[derive(Debug)]
@@ -7,13 +8,21 @@ enum MarkerType {
 }
 
 fn main() {
+    let mut num: i8 = 1;
+
     // Exercise 1 - Variables
-    demarkers(MarkerType::Started, 1);
+    demarkers(MarkerType::Started, num);
     variables::runall();
-    demarkers(MarkerType::Ends, 1);
+    demarkers(MarkerType::Ends, num);
+
+    num += 1;
+    // Exercise 2 - DataTypes
+    demarkers(MarkerType::Started, num);
+    datatypes::runall();
+    demarkers(MarkerType::Ends, num);
 }
 
-fn demarkers(marker: MarkerType, num: i32) {
+fn demarkers(marker: MarkerType, num: i8) {
     println!("==================");
     println!("Exercise No. {} {:?}", num, marker);
     println!("==================");
