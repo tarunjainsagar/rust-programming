@@ -23,13 +23,34 @@ fn main() {
     }
     println!("Program 4 Scope - Success!");
 
-    // Program 5
+    // Program 5 - Functions
     define_var();
 
-    // todo: Function, Shadowing
+    // Program 6 - Shadowing
+    shadowing();
 }
 
 fn define_var() {
     let b: &str = "Hello Function!";
     println!("Program 5 Function - {}", b);
+}
+
+#[allow(unused_variables)]
+fn shadowing() {
+    let x: i32 = 5;
+
+    {
+        let x: i32 = 12;
+        assert_eq!(x, 12);
+    }
+
+    assert_eq!(x, 5);
+
+    // shadowing
+    let x: i32 = 42;
+
+    // another shadowing
+    let y: i32 = 50;
+    let y: &str = "I am shadowed";
+    println!("Program 6 Shadowning - x is {} and y is {}", x, y);
 }
